@@ -1,0 +1,44 @@
+.log-out-container .nav-bar {
+  /* background: linear-gradient(90deg, crimson 0%,rgb(164, 247, 69) 100%); */
+  /* background:gray; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  padding: 0 20px;
+  z-index: 999;
+  transition: all 0.5s ease;
+}
+.log-out-container .nav-bar.sticky {
+  background: #ccc;
+  height: 65px;
+  transition: all 0.5s ease;
+}
+.log-out-container .nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  height: 100%;
+}
+.log-out-container .nav-logo {
+  /* position: fixed; */
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+.log-out-container .nav-items .signin {
+  background: crimson;
+  color: #fff;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.log-out-container .nav-avatar {
+  /* position: fixed; */
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}

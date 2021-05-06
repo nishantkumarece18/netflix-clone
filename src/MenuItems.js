@@ -1,0 +1,37 @@
+export const MenuItems=[
+    {
+        'title':'Originals',
+        'url':'#originals',
+        'cName':'menu-links'
+    },
+    {
+        'title':'Trending',
+        'url':'#trending',
+        'cName':'menu-links'
+    },
+    {
+        'title':'Top Rated',
+        'url':'#top-rated',
+        'cName':'menu-links'
+    },
+    {
+        'title':'Action',
+        'url':'#action',
+        'cName':'menu-links'
+    },
+    {
+        'title':'Horror',
+        'url':'#horror',
+        'cName':'menu-links'
+    },
+    {
+        'title':'Comedy',
+        'url':'#comedy',
+        'cName':'menu-links'
+    },
+    {
+        'title':'Romance',
+        'url':'#romance',
+        'cName':'menu-links'
+    }
+]

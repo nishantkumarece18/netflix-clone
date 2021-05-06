@@ -1,0 +1,79 @@
+.row {
+  color: #fff;
+  margin-left: 20px;
+}
+.row-posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.row-posters::-webkit-scrollbar {
+  display: none;
+}
+.row-poster {
+  object-fit: contain;
+  height: 150px;
+  width: auto;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+.row-poster-large {
+  height: 250px;
+}
+.row-poster:hover {
+  transform: scale(1.09);
+}
+.row-poster-large:hover {
+  transform: scale(1.1);
+}
+.overview.hide {
+  display: none;
+}
+.row-posters .overview * {
+  background: #ddd;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+.row-posters > div:hover .overview.hide {
+  display: block;
+  position: absolute;
+  left: 25vw;
+  z-index: 9999;
+  color: black;
+  justify-self: center;
+  background: white;
+  width: 70vh;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.row-posters .overview .title {
+  padding: 0.5rem 0.5rem 0rem 0.5rem;
+}
+.row-posters .overview .properties {
+  padding: 0 0.5rem 0.3rem 0.5rem;
+  display: flex;
+  font-size: 0.85rem;
+}
+.row-posters .overview .properties > p {
+  padding-right: 3rem;
+}
+.row-posters .overview > p {
+  padding: 0 0.5rem;
+}
+.row-posters .icon-container {
+  padding: 0.5rem;
+  display: flex;
+}
+.row-posters .icon-container li {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.icon-container .share ul {
+  display: none;
+}
+.icon-container .share:hover ul {
+  display: flex;
+  cursor: default;
+}
